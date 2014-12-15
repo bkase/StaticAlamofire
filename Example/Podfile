@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'StaticAlamofire', :exclusive => true do
+  pod "StaticAlamofire", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "StaticAlamofire", :path => "../"
+
+  
+end
