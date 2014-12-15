@@ -10,18 +10,13 @@
 Pod::Spec.new do |s|
   s.name             = "StaticAlamofire"
   s.version          = "0.1.0"
-  s.summary          = "A short description of StaticAlamofire."
-  s.description      = <<-DESC
-                       An optional longer description of StaticAlamofire
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
-                       DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/StaticAlamofire"
+  s.summary          = "An experiment to build a static swift library with Alamofire."
+  # s.description      = <<-DESC
+  s.homepage         = "https://github.com/bkase/StaticAlamofire"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Brandon Kase" => "bkase@cmu.edu" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/StaticAlamofire.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bkase/StaticAlamofire.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
